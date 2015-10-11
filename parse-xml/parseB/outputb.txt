@@ -1,0 +1,48 @@
+Script started on Tue 22 Sep 2015 12:23:07 PM EDT
+[kbashfor@pi parseB]$ javac -classpath .:xpp3-1.1.3.4.C.jar *.java
+[kbashfor@pi parseB]$ java -classpath .:xpp3-1.1.3.4.C.jar PullWord words.xml
+
+Word: |ab ovo|
+	Definition: |from the beginning|
+		Part-of-Speech: |adverb|
+Word: |abecedarian|
+	Definition: |alphabetically arranged; rudimentary|
+		Part-of-Speech: |adjective|
+Word: |abeyance|
+	Definition: |temporary inactivity; suspension|
+		Part-of-Speech: |noun|
+Word: |abjure|
+	Definition: |to renounce upon oath|
+		Part-of-Speech: |verb|
+Word: |abrogate|
+	Definition: |to abolish by authoritative action; annul|
+		Part-of-Speech: |verb|
+Word: |abstemious|
+	Definition: |marked by restraint|
+		Part-of-Speech: |adjective|
+Word: |abulia|
+	Definition: |lack of ability to act or to make decisions|
+		Part-of-Speech: |noun|
+Word: |abstruse|
+	Definition: |difficult to comprehend|
+		Part-of-Speech: |adjective|
+Word: |acceptation|
+	Definition: |generally accepted meaning of a word|
+		Part-of-Speech: |noun|
+Word: |acedia|
+	Definition: |apathy|
+		Part-of-Speech: |noun|
+Word: |acolyte|
+	Definition: |follower|
+		Part-of-Speech: |noun|
+Word: |adjure|
+	Definition: |to advise earnestly|
+		Part-of-Speech: |verb|
+Word: |adjuvant|
+	Definition: |assisting in prevention or amelioration [of disease]|
+		Part-of-Speech: |adjective|
+
+[kbashfor@pi parseB]$ exit
+exit
+
+Script done on Tue 22 Sep 2015 12:23:21 PM EDT

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+	<color>
+		<name>CornFlowerBlue</name>
+		<hex>#6495ED</hex>
+	</color>
+	<color>
+		<name>DarkGoldenRod</name>
+		<hex>#B8860B</hex>
+	</color>
+	<color>
+		<name>LawnGreen</name>
+		<hex>#7CFC00</hex>
+	</color>
+	<color>
+		<name>Maroon</name>
+		<hex>#800000</hex>
+	</color>
+	<color>
+		<name>Olive</name>
+		<hex>#808000</hex>
+	</color>
+	<color>
+		<name>Salmon</name>
+		<hex>#FA8072</hex>
+	</color>
+	<color>
+		<name>SeaGreen</name>
+		<hex>#2E8B57</hex>
+	</color>
+	<color>
+		<name>SteelBlue</name>
+		<hex>#4682B4</hex>
+	</color>
+	<color>
+		<name>Tomato</name>
+		<hex>#FF6347</hex>
+	</color>	
+</colors>
