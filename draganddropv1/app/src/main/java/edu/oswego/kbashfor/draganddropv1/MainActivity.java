@@ -127,9 +127,9 @@ class OdDragListener implements View.OnDragListener {
         this.context = context;
         this.v = v;
         // enterShape = context.getResources().getDrawable(R.drawable.shape_droptarget);
-        enterShape = ResourcesCompat.getDrawable(context.getResources(), R.drawable.ring, null);
+        enterShape = ResourcesCompat.getDrawable(context.getResources(), R.drawable.after_shape, null);
         // normalShape = context.getResources().getDrawable(R.drawable.shape);
-        normalShape = ResourcesCompat.getDrawable(context.getResources(), R.drawable.ring, null);
+        normalShape = ResourcesCompat.getDrawable(context.getResources(), R.drawable.after_shape, null);
     }
     private Context context;
     private TextView v;
@@ -145,12 +145,12 @@ class OdDragListener implements View.OnDragListener {
                 break;
             case DragEvent.ACTION_DRAG_ENTERED:
                 if (v == this.v) {
-                    // v.setBackgroundDrawable(enterShape);
+                    v.setBackgroundDrawable(enterShape);
                 }
                 break;
             case DragEvent.ACTION_DRAG_EXITED:
                 if (v == this.v) {
-                    // v.setBackgroundDrawable(normalShape);
+                    v.setBackgroundDrawable(normalShape);
                 }
                 break;
             case DragEvent.ACTION_DROP:
