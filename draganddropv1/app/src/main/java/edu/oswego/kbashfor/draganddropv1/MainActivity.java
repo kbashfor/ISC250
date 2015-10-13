@@ -127,9 +127,9 @@ class OdDragListener implements View.OnDragListener {
         this.context = context;
         this.v = v;
         // enterShape = context.getResources().getDrawable(R.drawable.shape_droptarget);
-        enterShape = ResourcesCompat.getDrawable(context.getResources(), R.drawable.shape_droptarget, null);
+        enterShape = ResourcesCompat.getDrawable(context.getResources(), R.drawable.ring, null);
         // normalShape = context.getResources().getDrawable(R.drawable.shape);
-        normalShape = ResourcesCompat.getDrawable(context.getResources(), R.drawable.shape, null);
+        normalShape = ResourcesCompat.getDrawable(context.getResources(), R.drawable.ring, null);
     }
     private Context context;
     private TextView v;

@@ -66,8 +66,7 @@ This should result in the package:
  * `setContentView` — "inflate" (a view or tree of views contained in a layout) to be the View of this activity.
  * `findViewById` — "inflate" a View from an XML source.
  * `ListView` — a special view group which manages interaction with a data list.
- * `ArrayAdapter` — "adapt" an interface between a data array and a ListView
-* listener — an object with prescribed properties which will be "manipulated" when events of interest occur. 
+ * `ArrayAdapter` — "adapt" an interface between a data array and a ListViewlistener — an object with prescribed properties which will be "manipulated" when events of interest occur. 
 `AdapterView.OnItemClickListener` is an example.
 
 ***
@@ -281,5 +280,48 @@ and **needs to be placed at the URL** specified in your code.
 
  * `java.util.concurrent` package
  * parsing XML
+
+***
+
+# Assignment 7 A — drag and drop V1
+
+## Introduction
+
+...
+
+ * —
+
+New Android classes include:
+
+ * —
+
+## The assignment
+
+Create a new project with the name DragAndDropV1 
+This should result in the package: 
+`edu.oswego.YOUR_USER_ID.draganddropv1`
+
+## Code and resource XML and data
+
+ * [MainActivity.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/a/MainActivity.txt)
+ * [OdView.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/a/OdView.txt) <= change this name to something you like
+
+In layout folder:
+
+ * [activity_main.xml](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/a/activity_main.txt)
+ * [tile.xml](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/a/tile.txt) <= be sure to replace OdView with your own idea for a name
+
+In drawable folder:
+
+ * [bg.xml](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/a/bg.txt)
+
+## Notes
+
+ * Make sure you don't erase your package name when pasting in the above code.
+ * You'll have to help the IDE supply the correct imports for the `MainActivity`, `OdView` (by using "alt-return".)
+
+## Concepts
+
+ * —
 
 ***
