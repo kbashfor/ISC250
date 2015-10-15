@@ -225,6 +225,61 @@ You can use the same data file as in the previous assignment:
 
 ***
 
+# Assignment 6 C — vocabulary app version 4c
+
+## Introduction
+
+This version of the vocabulary app
+
+replaces Android's AsyncTask with [java.util.concurrent.ExecutorService](http://developer.android.com/reference/java/util/concurrent/ExecutorService.html)
+Uses an XML data source.
+Connects to the data source using HTTP.
+T
+## The assignment
+
+Create a new project with the name ListViewerV4b. 
+(This should result in the package: 
+`edu.oswego.YOUR_USER_ID.listviewerv4b`
+
+## Code and resource XML and data
+
+ * [MainActivity.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/c/MainActivity.txt)
+ * [ReaderTask.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/c/ReaderTask.txt)
+ * [Fetcher.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/c/Fetcher.txt)
+ * [Word.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/c/Word.txt)
+
+These Java files are the same as in 4a:
+
+ * [Item.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/a/Item.txt) — same as version 4a
+
+The XML layout files can stay the same, too:
+
+ * [activity_main.xml](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/a/activity_main.xml)
+ * [activity_item.xml](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/a/activity_item.xml)
+
+You need to add:
+`<uses-permission android:name="android.permission.INTERNET" />` 
+to your AndroidManifest.xml file.
+
+Don't put my package name in your [AndroidManifest.xml](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/b/AndroidManifest.xml) file.
+
+The data file is
+
+ * [words.xml](http://cs.oswego.edu/~odendahl/words-and-defs.xml)
+
+and needs to be placed at the URL specified in your code.
+
+## Notes
+
+ * Make sure you don't erase your package name when pasting in the above code.
+ * You'll have to help the IDE supply the correct imports for the Java files (by using "alt-return".)
+
+Concepts
+
+ * `java.util.concurrent package`
+ * parsing XML
+
+***
 # Assignment 6 B — vocabulary app version 4b
 
 ## Introduction
@@ -287,13 +342,16 @@ and **needs to be placed at the URL** specified in your code.
 
 ## Introduction
 
-...
+This app begins to demonstrate how to
 
- * —
+ * drag an element (a View) from one ViewGroup to another.
+ * create a "custom" View.
+ * create View elements programmatically.
 
 New Android classes include:
 
- * —
+ * OnTouchListener
+ * OnDragListener
 
 ## The assignment
 
