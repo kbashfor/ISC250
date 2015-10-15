@@ -296,7 +296,7 @@ Create a new project with the name ListViewerV4b.
 This should result in the package: 
 `edu.oswego.YOUR_USER_ID.listviewerv4b`
 
-# Code and resource XML and data
+## Code and resource XML and data
 
  * [MainActivity.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/b/MainActivity.txt)
  * [ReaderTask.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/06/b/ReaderTask.txt)
