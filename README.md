@@ -384,3 +384,45 @@ In drawable folder:
  * —
 
 ***
+
+# Assignment 7 B — drag and drop V2
+
+## Introduction
+
+This app demonstrates interchanging Views between ViewGroups. It builds on the `OnTouchListener` and `OnDragListener` interfaces you used in the previous programs.
+
+## The assignment
+
+Your tasks are to start with the code below:
+
+ * Get the code to run as is.
+ * Change the main layout to include 5 "tiles" instead of 4.
+ * Similarly, alter the main activity to assign values to all the tiles.
+ * Add a custom `OnTouchListener` to each tile. (Borrow ideas/code from the previous assignment.)
+ * Add a custom `OnDragListener` to each tile. (Borrow ideas/code from the previous assignment.)
+ * Add a button to assign new random values to all tiles.
+
+Create a new project with the name DragAndDropV2 
+This should result in the package: 
+`edu.oswego.YOUR_USER_ID.draganddropv2`
+
+## Code and resource XML and data
+
+ * [MainActivity.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/b/MainActivity.txt)
+ * [Tile.java](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/b/Tile.txt)
+
+In `layout` folder:
+
+ * [activity_main.xml](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/b/activity_main.txt)
+ * [tile.xml](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/b/tile.txt)
+
+In `drawable` folder:
+
+ * [bg.xml](http://cs.oswego.edu/~odendahl/coursework/isc250/201509/assignments/07/b/bg.txt)
+
+## Notes
+
+Make sure you don't erase your package name when pasting in the above code.
+You'll have to help the IDE supply the correct imports for the MainActivity, OdView (by using "alt-return".)
+
+***

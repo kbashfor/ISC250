@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <edu.oswego.kbashfor.draganddropv2.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell11"/>
+        <edu.oswego.kbashfor.draganddropv2.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell12"/>
+        <edu.oswego.kbashfor.draganddropv2.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell13"/>
+        <edu.oswego.kbashfor.draganddropv2.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell14"/>
+        <edu.oswego.kbashfor.draganddropv2.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell15"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_gen"
+            android:id="@+id/button_generator"
+            android:layout_column="0"
+            android:layout_span="5" />
+    </TableRow>
+
+</TableLayout>
