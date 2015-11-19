@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relold">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/odprogressold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/busyold"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/wordrow">
+        <edu.oswego.kbashfor.draganddropv3.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell11"/>
+        <edu.oswego.kbashfor.draganddropv3.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell12"/>
+        <edu.oswego.kbashfor.draganddropv3.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell13"/>
+        <edu.oswego.kbashfor.draganddropv3.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell14"/>
+        <edu.oswego.kbashfor.draganddropv3.Tile
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFA500"
+            android:background="@drawable/bg"
+            android:id="@+id/cell15"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_gen"
+            android:id="@+id/button_generator"
+            android:layout_column="0"
+            android:layout_span="5" />
+    </TableRow>
+
+</TableLayout>
+</RelativeLayout>

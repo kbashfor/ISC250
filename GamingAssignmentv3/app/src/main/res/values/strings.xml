@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gaming Assignment (v3)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lastcollision">Last Collision XY (?,?)</string>
+    <string name="reset">Reset</string>
+    <string name="speed">Sprite Speed (?,?)</string>
+    <string name="abc">ABC\'s of Android Game Dev</string>
+</resources>

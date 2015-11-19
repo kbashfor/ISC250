@@ -426,3 +426,111 @@ Make sure you don't erase your package name when pasting in the above code.
 You'll have to help the IDE supply the correct imports for the MainActivity, OdView (by using "alt-return".)
 
 ***
+
+# Assignment 7 C — drag and drop V3
+
+## Introduction
+
+This app extends the previous version — whose purpose was illustrating the interchange of Views between ViewGroups — by adding content dynamically to the said Views.
+
+Specifically, you are to
+
+ * Start with a `RelativeLayout` and insert the `TableLayout` programmatically.
+ * Load "word data" as in several prior programs.
+ * Select a word at random.
+ * Place the individual letters of the selected word into `TextViews` inserted into the `TableLayout` that you created programmatically.
+
+Create a new project with the name DragAndDropV3 
+This should result in the package: 
+`edu.oswego.YOUR_USER_ID.draganddropv3`
+
+## Code and resource XML and data
+
+ * Begin with the project you created for the previous problem.
+
+## Notes
+
+ * Make sure you don't erase your package name when pasting in the above code.
+
+***
+
+# Assignment 7 D — drag and drop V4
+
+## Introduction
+
+The final iteration of the drag-and-drop app is a version of the trademarked newspaper puzzle "Jumble." Extend the code to do the following tasks.
+
+ * Load a word/definition list (but not visible to the user.)
+ * Select a word at random.
+ * Programmatically create a tile for each letter in the word and add the tiles to the UI.
+ * When the user has rearranged the letters to correctly display the word, notify him/her of success.
+ * Optionally provide a button to show the user the definition of the word he/she is trying to unscramble.
+
+Create a new project with the name DragAndDropV4 
+
+This should result in the package: 
+`edu.oswego.YOUR_USER_ID.draganddropv4`
+
+## Code and resource XML and data
+
+## Notes
+
+ * Make sure you don't erase your package name when pasting in the above code.
+
+***
+
+# Assignment 8 - B-Tree
+
+## Introduction
+
+This assignment was only to make a find algorithm for a pre-generated tree that Odendahl provided.
+
+I took it upon myself to write a better and more interactive version, where only 2 methods were taken from his example (below)
+
+```java
+public enum Order { PREORDER, INORDER, POSTORDER };
+
+...
+
+public void traverse(Order order) {
+	do_traverse(order, root);
+}
+
+private void do_traverse(Order order, Node<T> node) {
+	if (node != null) {
+		switch (order) {
+			case PREORDER:
+				out.print(c.PURPLE + "[" + node.toString() + "] " + c.RESET);
+				do_traverse(order, node.left);
+				do_traverse(order, node.right);
+				break;
+			case INORDER:
+				do_traverse(order, node.left);
+				out.print(c.YELLOW + "[" + node.toString() + "] " + c.RESET);
+				do_traverse(order, node.right);
+				break;
+			case POSTORDER:
+				do_traverse(order, node.left);
+				do_traverse(order, node.right);
+				out.print(c.GREEN + "[" + node.toString() + "] " + c.RESET);
+				break;
+		}
+	}
+}
+```
+
+***
+
+# Gaming Assignment
+
+## Introduction
+
+As an exercise for people who were ahead of schedule, we did the TechRepublic *"ABC's of Game Development"* where doing a 5 part tutorial will make a very simple game.
+
+ * [part 1](http://www.techrepublic.com/blog/software-engineer/the-abcs-of-android-game-development-prepare-the-canvas/)
+ * [part 2](http://www.techrepublic.com/blog/software-engineer/the-abcs-of-android-game-development-load-and-display-sprites/)
+ * [part 3](http://www.techrepublic.com/blog/software-engineer/the-abcs-of-android-game-development-animate-sprites/)
+ * [part 4](http://www.techrepublic.com/blog/software-engineer/the-abcs-of-android-game-development-detect-collisions/)
+ * [part 5](http://www.techrepublic.com/blog/software-engineer/the-abcs-of-android-game-development-user-input/)
+
+***

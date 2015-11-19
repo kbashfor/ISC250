@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Drag and Drop (v4)</string>
+    <string name="check">Check Word</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_gen">Generate New Word</string>
+    <string name="deff_word">Get Definition</string>
+</resources>
