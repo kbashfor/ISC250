@@ -5,7 +5,6 @@ public class Tree <T extends Comparable<T>> {
 	public enum Order { PREORDER, INORDER, POSTORDER };
 	Color c = new Color();
 	Node<T> root;
-	Node<T> current;
 
 	public class Node<T> {
 		T data;
